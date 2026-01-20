@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>À propos de moi - Yahnick</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #e3f2fd, #bbdefb);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0d47a1;
+            text-transform: uppercase;
+            animation: fadeDown 2s;
+        }
+
+        h2 {
+            color: #1565c0;
+            margin-top: 40px;
+        }
+
+        .bio {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 6px solid #1565c0;
+            animation: fadeIn 2s;
+        }
+
+        /* ===== Images ===== */
+        .images {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        img {
+            width: 250px;
+            border-radius: 15px;
+            border: 3px solid #1565c0;
+            animation: float 3s ease-in-out infinite;
+            transition: transform 0.5s, box-shadow 0.5s;
+        }
+
+        img:hover {
+            transform: scale(1.1) rotate(2deg);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+
+        /* ===== Table ===== */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 40px;
+            background: white;
+            animation: fadeUp 2s;
+        }
+
+        th {
+            background-color: #0d47a1;
+            color: white;
+            padding: 12px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        table, th, td {
+            border: 1px solid #0d47a1;
+        }
+
+        /* ===== Animations ===== */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeDown {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>À propos de moi</h1>
+
+    <div class="bio">
+        <p><strong>Nom :</strong> MBUYA</p>
+        <p><strong>Post-nom :</strong> MUKENGE</p>
+        <p><strong>Prénom :</strong> YAHNICK</p>
+        <p><strong>Date de naissance :</strong> 11/01/2008</p>
+        <p><strong>Lieu de naissance :</strong> Lubumbashi</p>
+        <p><strong>Étude :</strong> Université de Lubumbashi</p>
+        <p><strong>Promotion :</strong> Pre-ESI C</p>
+    </div>
+
+    <h2>Ma vie d'enfance</h2>
+    <p>
+        Je passais mon enfance comme tous les autres enfants. Je jouais avec mes amis
+        et mes voisins, je faisais des bêtises. Mais j’aimais beaucoup l’électricité
+        et je faisais de petits bricolages électriques. C’est là que j’ai compris
+        que je serai un grand électricien.
+    </p>
+
+    <div class="images">
+        <img src="image1.jpg" alt="Enfance">
+    </div>
+
+    <h2>Ma vie chrétienne</h2>
+    <p>
+        Je suis témoin de Jéhovah depuis ma naissance et je me suis fait baptiser
+        le 7 décembre 2025. Je continue d’évoluer spirituellement avec l’objectif
+        d’être ancien un jour.
+    </p>
+
+    <div class="images">
+        <img src="image2.jpg" alt="Vie chrétienne">
+        <img src="image3.jpg" alt="Baptême">
+    </div>
+
+    <h2>Mes rêves et objectifs</h2>
+    <p>
+        J’ai toujours rêvé d’être un grand homme. En grandissant, j’ai compris
+        la réalité de la vie et j’ai décidé de me battre pour atteindre mes objectifs
+        et devenir un grand électricien.
+    </p>
+
+    <div class="images">
+        <img src="image4.jpg" alt="Rêves">
+        <img src="image5.jpg" alt="Objectifs">
+    </div>
+
+    <h2>Tableau</h2>
+    <table>
+        <tr>
+            <th>Colonne 1</th>
+            <th>Colonne 2</th>
+            <th>Colonne 3</th>
+            <th>Colonne 4</th>
+        </tr>
+
+        <tr><td>1</td><td></td><td></td><td></td></tr>
+        <tr><td>2</td><td></td><td></td><td></td></tr>
+        <tr><td>3</td><td></td><td></td><td></td></tr>
+        <tr><td>4</td><td></td><td></td><td></td></tr>
+        <tr><td>5</td><td></td><td></td><td></td></tr>
+        <tr><td>6</td><td></td><td></td><td></td></tr>
+        <tr><td>7</td><td></td><td></td><td></td></tr>
+        <tr><td>8</td><td></td><td></td><td></td></tr>
+        <tr><td>9</td><td></td><td></td><td></td></tr>
+        <tr><td>10</td><td></td><td></td><td></td></tr>
+        <tr><td>11</td><td></td><td></td><td></td></tr>
+        <tr><td>12</td><td></td><td></td><td></td></tr>
+        <tr><td>13</td><td></td><td></td><td></td></tr>
+        <tr><td>14</td><td></td><td></td><td></td></tr>
+        <tr><td>15</td><td></td><td></td><td></td></tr>
+    </table>
+
+</body>
+</html>
